@@ -29,7 +29,7 @@ public class HibernateMain
         p.setBrand("SONY");
         p.setPrice(6000);
         s.save(p);
-        
+        System.out.println("Product is Saved");
         t.commit();
         s.close();
         System.exit(0);
